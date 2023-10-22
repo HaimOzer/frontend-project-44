@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "project of first module (hexlet-frontend-dev)",
   "main": "index.js",
-  "scripts": {
+  "type": "module",	  
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },	
+"scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "zueech",
