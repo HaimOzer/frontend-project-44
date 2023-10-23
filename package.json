@@ -3,13 +3,17 @@
   "version": "1.0.0",
   "description": "project of first module (hexlet-frontend-dev)",
   "main": "index.js",
-  "type": "module",	  
+  "type": "module",
   "bin": {
     "brain-games": "bin/brain-games.js"
-  },	
-"scripts": {
+  },
+  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "zueech",
-  "license": "ISC"
+  "license": "ISC",
+  "private": false,
+"dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
