@@ -13,7 +13,12 @@
   "author": "zueech",
   "license": "ISC",
   "private": false,
-"dependencies": {
+  "dependencies": {
     "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "eslint": "^8.52.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.0"
   }
 }
