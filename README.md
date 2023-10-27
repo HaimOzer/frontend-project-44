@@ -2,7 +2,6 @@
 [![Actions Status](https://github.com/HaimOzer/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/HaimOzer/frontend-project-44/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/d8826f029a7aba439b5a/maintainability)](https://codeclimate.com/github/HaimOzer/frontend-project-44/maintainability)
 
-### Asciinema demonstration games:
-
-![Brain Even](https://img.shields.io/badge/Asciinema-Brain Even-#D40000?style=&logo=)(https://asciinema.org/a/cQ40iHZ0CHIqGCv4e8TAsnPB9)
+### Demonstration games:
+[![Brain Even](https://img.shields.io/badge/Asciinema-Brain_Even_Game-blue?style=for-the-badge&logo=asciinema)](https://asciinema.org/a/cQ40iHZ0CHIqGCv4e8TAsnPB9)
 
