@@ -4,5 +4,5 @@
 
 ## Asciinema demonstration games:
 
-[![Brain Even]<a href="https://asciinema.org/a/cQ40iHZ0CHIqGCv4e8TAsnPB9"><img src="https://asciinema.org/images/logo-red-949d10005bb389d1ae900a13b5ac53d7.svg?vsn=d" width="20" height="20">Brain Even Game</a>](https://asciinema.org/a/cQ40iHZ0CHIqGCv4e8TAsnPB9)
+[![Brain Even](https://avatars.githubusercontent.com/u/6506055?v=4)](https://asciinema.org/a/cQ40iHZ0CHIqGCv4e8TAsnPB9)
 
