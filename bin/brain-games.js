@@ -3,4 +3,3 @@
 import greetAndGetName from '../src/cli.js';
 
 greetAndGetName();
-

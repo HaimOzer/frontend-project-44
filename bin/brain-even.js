@@ -3,11 +3,10 @@ import greetAndGetName from '../src/cli.js';
 
 function isEven(number) {
   return number % 2 === 0;
-};
+}
 
 function playEvenGame(name) {
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
-
 
   let correctAnswersCount = 0;
   const roundsToWin = 3;
@@ -19,7 +18,7 @@ function playEvenGame(name) {
 
     if ((userAnswer === 'yes' && isEven(randomNumber)) || (userAnswer === 'no' && !isEven(randomNumber))) {
       console.log('Correct!');
-      correctAnswersCount++;
+      correctAnswersCount += 1;
     } else {
       console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${isEven(randomNumber) ? 'yes' : 'no'}'.`);
       console.log(`Let's try again, ${name}!`);
