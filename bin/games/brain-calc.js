@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
-import greetAndGetName from '../src/cli.js';
+import greetAndGetName from '../../src/cli.js';
 
 function playCalcmGame(name) {
   console.log('What is the result of the expression?');
