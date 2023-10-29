@@ -4,13 +4,13 @@ import greetAndGetName from '../../src/cli.js';
 // MAIN BEGIN
 function gcd(a, b) {
   while (b !== 0) {
-      let temp = b;
-      b = a % b;
-      a = temp;
+    const temp = b;
+    b = a % b;
+    a = temp;
   }
   return a;
 }
-// MAIN END
+//MAIN END
 
 function playGCD(name) {
   console.log('Find the greatest common divisor of given numbers.');
@@ -22,7 +22,7 @@ function playGCD(name) {
     const num1 = Math.floor(Math.random() * 10) + 1;
     const num2 = Math.floor(Math.random() * 10) + 1;
     console.log(`Question: ${num1} ${num2}`);
-    let expectedAnswer = gcd(num1, num2)
+    const expectedAnswer = gcd(num1, num2);
     const userAnswer = readlineSync.question('Your answer: ');
 
     if (parseInt(userAnswer, 10) === expectedAnswer) {
