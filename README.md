@@ -9,4 +9,6 @@
 
 [![Brain GCD](https://img.shields.io/badge/Asciinema-Brain_GCD_Game-blue?style=for-the-badge&logo=asciinema)](https://asciinema.org/a/PC12FH94v6EcuY2aDEaBk2BYx)
 
- [![Brain Progression](https://img.shields.io/badge/Asciinema-Brain_Progression-blue?style=for-the-badge&logo=asciinema)](https://asciinema.org/a/oEDZ7RKBEIbEAfNykKaFCJzfw)
+[![Brain Progression](https://img.shields.io/badge/Asciinema-Brain_Progression-blue?style=for-the-badge&logo=asciinema)](https://asciinema.org/a/oEDZ7RKBEIbEAfNykKaFCJzfw)
+
+[![Brain Prime](https://img.shields.io/badge/Asciinema-Brain_Prime_Game-blue?style=for-the-badge&logo=asciinema)](https://asciinema.org/a/5mJVULd1XsYKroDc2viSgmT2J)
