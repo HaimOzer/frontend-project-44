@@ -28,8 +28,6 @@ function playCalcmGame(name) {
         expectedAnswer = randomNumber1 * randomNumber2;
         break;
       default:
-        console.log('Это Pre-Alpha версия. Доступны только (+) (-) (*) функции.');
-        console.log('Попробуйте снова.');
         break;
     }
 
