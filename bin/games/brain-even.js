@@ -1,6 +1,9 @@
 #!/usr/bin/env node
 
 import readlineSync from 'readline-sync';
+import greetAndGetName from '../../src/cli.js';
+
+const name = greetAndGetName();
 
 function isEven(number) {
   return number % 2 === 0;
@@ -43,3 +46,5 @@ export default function playEvenGame(name) {
     console.log(`Congratulations, ${name}!`);
   }
 }
+
+playEvenGame(name);

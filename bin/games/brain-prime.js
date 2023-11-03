@@ -1,6 +1,9 @@
 #!/usr/bin/env node
 
 import readlineSync from 'readline-sync';
+import greetAndGetName from '../../src/cli.js';
+
+const name = greetAndGetName();
 
 function isPrime(num) {
   for (let i = 2; i < num; i += 1) {
@@ -39,3 +42,5 @@ export default function playBrainPrime(name) {
     console.log(`Congratulations, ${name}!`);
   }
 }
+
+playBrainPrime(name);

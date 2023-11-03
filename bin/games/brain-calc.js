@@ -1,6 +1,9 @@
 #!/usr/bin/env node
 
 import readlineSync from 'readline-sync';
+import greetAndGetName from '../../src/cli.js';
+
+const name = greetAndGetName();
 
 export default function playCalcGame(name) {
   console.log('What is the result of the expression?');
@@ -46,3 +49,5 @@ export default function playCalcGame(name) {
     console.log(`Congratulations, ${name}!`);
   }
 }
+
+playCalcGame(name);

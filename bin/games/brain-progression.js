@@ -1,6 +1,9 @@
 #!/usr/bin/env node
 
 import readlineSync from 'readline-sync';
+import greetAndGetName from '../../src/cli.js';
+
+const name = greetAndGetName();
 
 function generateQuestion(progressionLength) {
   const startNumber = Math.floor(Math.random() * 50) + 1;
@@ -46,3 +49,5 @@ export default function playProgressionGame(name) {
     console.log(`Congratulations, ${name}!`);
   }
 }
+
+playProgressionGame(name);

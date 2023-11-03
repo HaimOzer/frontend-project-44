@@ -1,6 +1,9 @@
 #!/usr/bin/env node
 
 import readlineSync from 'readline-sync';
+import greetAndGetName from '../../src/cli.js';
+
+const name = greetAndGetName();
 
 function gcd(a, b) {
   while (b !== 0) {
@@ -38,3 +41,5 @@ export default function playGCD(name) {
     console.log(`Congratulations, ${name}!`);
   }
 }
+
+playGCD(name);
