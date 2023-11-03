@@ -23,10 +23,10 @@ export default function playBrainPrime(name) {
     const userAnswer = readlineSync.question('Your answer: ');
 
     if (isPrime(randomNum) && userAnswer === 'yes') {
-      console.log('Correct !');
+      console.log('Correct!');
       correctAnswersCount += 1;
     } else if (!isPrime(randomNum) && userAnswer === 'no') {
-      console.log('Correct !');
+      console.log('Correct!');
       correctAnswersCount += 1;
     } else {
       console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${isPrime(randomNum) ? 'yes' : 'no'}'.`);
