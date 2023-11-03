@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
 import readlineSync from 'readline-sync';
-import greetAndGetName from '../../src/cli.js';
 
 function isEven(number) {
   return number % 2 === 0;
@@ -19,7 +18,7 @@ function checkAnswer(userAnswer, randomNumber) {
   return (userAnswer === 'yes' && isEven(randomNumber)) || (userAnswer === 'no' && !isEven(randomNumber));
 }
 
-export function playEvenGame(name) {
+export default function playEvenGame(name) {
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
 
   let correctAnswersCount = 0;

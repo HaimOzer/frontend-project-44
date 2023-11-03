@@ -11,7 +11,7 @@ function isPrime(num) {
   return num > 1;
 }
 
-export function playBrainPrime(name) {
+export default function playBrainPrime(name) {
   console.log("Answer 'yes' if given number is prime. Otherwise answer 'no'.");
 
   let correctAnswersCount = 0;

@@ -1,9 +1,8 @@
 #!/usr/bin/env node
 
 import readlineSync from 'readline-sync';
-import greetAndGetName from '../../src/cli.js';
 
-export function playCalcGame(name) {
+export default function playCalcGame(name) {
   console.log('What is the result of the expression?');
 
   let correctAnswersCount = 0;

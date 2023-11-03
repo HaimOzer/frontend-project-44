@@ -22,7 +22,7 @@ function generateQuestion(progressionLength) {
   return { questionString, expectedAnswer };
 }
 
-export function playProgressionGame(name) {
+export default function playProgressionGame(name) {
   console.log('What number is missing in the progression?');
 
   let correctAnswersCount = 0;

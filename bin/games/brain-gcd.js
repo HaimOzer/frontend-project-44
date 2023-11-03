@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
 import readlineSync from 'readline-sync';
-import greetAndGetName from '../../src/cli.js';
 
 function gcd(a, b) {
   while (b !== 0) {
@@ -12,7 +11,7 @@ function gcd(a, b) {
   return a;
 }
 
-export function playGCD(name) {
+export default function playGCD(name) {
   console.log('Find the greatest common divisor of given numbers.');
 
   let correctAnswersCount = 0;
