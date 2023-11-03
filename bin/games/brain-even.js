@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
-import greetAndGetName from '../src/cli.js';
+import greetAndGetName from '../../src/cli.js';
 
 function isEven(number) {
   return number % 2 === 0;

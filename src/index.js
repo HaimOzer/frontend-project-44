@@ -1,5 +1,10 @@
+import greetAndGetName from './cli.js';
 
-//функция, проверяющая правильный ответ
+//  имя пользователя
+export const name = greetAndGetName();
+
+//  функция, проверяющая правильный ответ
+//  не получается остановить цикл при неправильном ответе. оставлю пока так
 
 export function isCorrectAnswer(userAnswer, expectedAnswer, correctAnswersCount) {
   if (parseInt(userAnswer, 10) === expectedAnswer) {
