@@ -1,8 +1,20 @@
 import readlineSync from 'readline-sync';
-import greetAndGetName from '../../src/cli.js';
+import greetAndGetName from '../src/cli.js';
 
 function isEven(number) {
   return number % 2 === 0;
+}
+
+function generateRandomNumber() {
+  return Math.floor(Math.random() * 100);
+}
+
+function askUserForAnswer() {
+  return readlineSync.question('Your answer: ');
+}
+
+function checkAnswer(userAnswer, randomNumber) {
+  return (userAnswer === 'yes' && isEven(randomNumber)) || (userAnswer === 'no' && !isEven(randomNumber));
 }
 
 function playEvenGame(name) {
@@ -12,15 +24,15 @@ function playEvenGame(name) {
   const roundsToWin = 3;
 
   while (correctAnswersCount < roundsToWin) {
-    const randomNumber = Math.floor(Math.random() * 100);
+    const randomNumber = generateRandomNumber();
     console.log(`Question: ${randomNumber}`);
-    const userAnswer = readlineSync.question('Your answer: ');
+    const userAnswer = askUserForAnswer();
 
-    if ((userAnswer === 'yes' && isEven(randomNumber)) || (userAnswer === 'no' && !isEven(randomNumber))) {
+    if (checkAnswer(userAnswer, randomNumber)) {
       console.log('Correct!');
       correctAnswersCount += 1;
     } else {
-      console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${isEven(randomNumber) ? 'yes' : 'no'}'.`);
+      console.log(`'${userAnswer}' is the wrong answer ;(. Correct answer was '${isEven(randomNumber) ? 'yes' : 'no'}'.`);
       console.log(`Let's try again, ${name}!`);
       break;
     }
