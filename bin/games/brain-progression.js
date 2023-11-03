@@ -23,8 +23,11 @@ function generateQuestion(progressionLength) {
 }
 
 export function playProgressionGame(name) {
+  console.log('What number is missing in the progression?');
+
   let correctAnswersCount = 0;
   const roundsToWin = 3;
+
   while (correctAnswersCount < roundsToWin) {
     const { questionString, expectedAnswer } = generateQuestion(10);
     console.log(questionString);
