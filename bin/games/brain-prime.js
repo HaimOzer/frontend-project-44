@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
 import readlineSync from 'readline-sync';
-import { name } from '../../src/index.js';
 
 function isPrime(num) {
   for (let i = 2; i < num; i += 1) {
@@ -12,7 +11,7 @@ function isPrime(num) {
   return num > 1;
 }
 
-function playBrainPrime() {
+export function playBrainPrime(name) {
   console.log("Answer 'yes' if given number is prime. Otherwise answer 'no'.");
 
   let correctAnswersCount = 0;
@@ -40,5 +39,3 @@ function playBrainPrime() {
     console.log(`Congratulations, ${name}!`);
   }
 }
-
-playBrainPrime(name);

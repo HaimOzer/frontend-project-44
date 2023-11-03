@@ -3,7 +3,7 @@
 import readlineSync from 'readline-sync';
 import greetAndGetName from '../../src/cli.js';
 
-function playCalcmGame(name) {
+export function playCalcGame(name) {
   console.log('What is the result of the expression?');
 
   let correctAnswersCount = 0;
@@ -47,6 +47,3 @@ function playCalcmGame(name) {
     console.log(`Congratulations, ${name}!`);
   }
 }
-
-const name = greetAndGetName();
-playCalcmGame(name);

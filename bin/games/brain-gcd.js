@@ -12,7 +12,7 @@ function gcd(a, b) {
   return a;
 }
 
-function playGCD(name) {
+export function playGCD(name) {
   console.log('Find the greatest common divisor of given numbers.');
 
   let correctAnswersCount = 0;
@@ -39,5 +39,3 @@ function playGCD(name) {
     console.log(`Congratulations, ${name}!`);
   }
 }
-const name = greetAndGetName();
-playGCD(name);

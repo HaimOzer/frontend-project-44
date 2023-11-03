@@ -19,7 +19,7 @@ function checkAnswer(userAnswer, randomNumber) {
   return (userAnswer === 'yes' && isEven(randomNumber)) || (userAnswer === 'no' && !isEven(randomNumber));
 }
 
-function playEvenGame(name) {
+export function playEvenGame(name) {
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
 
   let correctAnswersCount = 0;
@@ -44,6 +44,3 @@ function playEvenGame(name) {
     console.log(`Congratulations, ${name}!`);
   }
 }
-
-const name = greetAndGetName();
-playEvenGame(name);
