@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import readlineSync from 'readline-sync';
-import greetAndGetName from '../../src/cli.js';
+import greetAndGetName from '../src/cli.js';
 
 const name = greetAndGetName();
 
