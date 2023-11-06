@@ -6,7 +6,15 @@
 Brain Games - это набор консольных мини-игр для тренировки ума.\
 Проект разработан в рамках обучения на курсе "Frontend JavaScript" на Hexlet.io.
 
+## Системные требования
+
+1. Node.js 
+2. Терминал
+3. MacOS/Linux 
+
 ## Установка
+
+*1-й способ:*
 
 Для установки Brain Games, вам потребуется Node.js. Выполните следующие шаги:
 
@@ -17,6 +25,14 @@ Brain Games - это набор консольных мини-игр для тр
    ```bash
    npm install -g @hexlet/code
    ```
+
+*2-й способ:*
+
+``` bash
+$ git clone git @github:hikarinakano/frontend-project-44.git
+$ cd frontend-project-44.git
+$ npm link
+```
 
 ## Использование
 
@@ -79,15 +95,17 @@ brain-prime
 ---
 
 ## Демо:
-[![Brain Even](https://img.shields.io/badge/Asciinema-Brain_Even_Game-blue?style=for-the-badge&logo=asciinema)](https://asciinema.org/a/cQ40iHZ0CHIqGCv4e8TAsnPB9)
+[![Brain Even](https://img.shields.io/badge/Asciinema-Brain_Even_Game-blue?style=for-the-badge&logo=asciinema)](#)
 
-[![Brain Calc](https://img.shields.io/badge/Asciinema-Brain_Calc_Game-blue?style=for-the-badge&logo=asciinema)](https://asciinema.org/a/GhZjLVjQSTLtWo7FqPIuZPj0s)
+<asciinema-player src="https://asciinema.org/a/tmp/tmppq1dqpld-ascii.cast"></asciinema-player>
 
-[![Brain GCD](https://img.shields.io/badge/Asciinema-Brain_GCD_Game-blue?style=for-the-badge&logo=asciinema)](https://asciinema.org/a/PC12FH94v6EcuY2aDEaBk2BYx)
+[![Brain Calc](https://img.shields.io/badge/Asciinema-Brain_Calc_Game-blue?style=for-the-badge&logo=asciinema)](#)
 
-[![Brain Progression](https://img.shields.io/badge/Asciinema-Brain_Progression-blue?style=for-the-badge&logo=asciinema)](https://asciinema.org/a/oEDZ7RKBEIbEAfNykKaFCJzfw)
+[![Brain GCD](https://img.shields.io/badge/Asciinema-Brain_GCD_Game-blue?style=for-the-badge&logo=asciinema)](#)
 
-[![Brain Prime](https://img.shields.io/badge/Asciinema-Brain_Prime_Game-blue?style=for-the-badge&logo=asciinema)](https://asciinema.org/a/5mJVULd1XsYKroDc2viSgmT2J)
+[![Brain Progression](https://img.shields.io/badge/Asciinema-Brain_Progression-blue?style=for-the-badge&logo=asciinema)](#)
+
+[![Brain Prime](https://img.shields.io/badge/Asciinema-Brain_Prime_Game-blue?style=for-the-badge&logo=asciinema)](#)
 
 ## Лицензия
 
