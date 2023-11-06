@@ -29,7 +29,7 @@ Brain Games - это набор консольных мини-игр для тр
 *2-й способ:*
 
 ``` bash
-$ git clone git @github:hikarinakano/frontend-project-44.git
+$ git clone git @github:HaimOzer/frontend-project-44.git
 $ cd frontend-project-44.git
 $ npm link
 ```
