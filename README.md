@@ -95,9 +95,8 @@ brain-prime
 ---
 
 ## Демо:
-[![Brain Even](https://img.shields.io/badge/Asciinema-Brain_Even_Game-blue?style=for-the-badge&logo=asciinema)](#)
+[![Brain Even](https://img.shields.io/badge/Asciinema-Brain_Even_Game-blue?style=for-the-badge&logo=asciinema)](/tmp/tmppq1dqpld-ascii.cast)
 
-<asciinema-player src="/tmp/tmppq1dqpld-ascii.cast"></asciinema-player>
 [![Brain Calc](https://img.shields.io/badge/Asciinema-Brain_Calc_Game-blue?style=for-the-badge&logo=asciinema)](#)
 
 [![Brain GCD](https://img.shields.io/badge/Asciinema-Brain_GCD_Game-blue?style=for-the-badge&logo=asciinema)](#)
