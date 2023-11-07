@@ -15,4 +15,3 @@ function playEvenGame() {
 }
 
 export default playEvenGame;
-

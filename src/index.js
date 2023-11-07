@@ -8,7 +8,7 @@ function buildGameLogic(gameDescription, createGameContent) {
 
   const roundsToWin = 3;
 
-  for(let round = 1; round <= roundsToWin; round += 1) {
+  for (let round = 1; round <= roundsToWin; round += 1) {
     const [question, correctAnswer] = createGameContent();
     console.log(`Question: ${question}`);
     const userAnswer = readlineSync.question('Your answer: ');
