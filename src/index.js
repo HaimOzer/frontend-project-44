@@ -4,7 +4,7 @@ function buildGameLogic(gameDescription, createGameContent) {
   console.log('Welcome to the Brain Games!');
   const name = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${name}!`);
-  console.log(gamesDescription);
+  console.log(gameDescription);
 
   const roundsToWin = 3;
 
