@@ -21,7 +21,7 @@ function createGameContent() {
 }
 
 function playGcdGame() {
- buildGameLogic(gameDescription, createGameContent);
+  buildGameLogic(gameDescription, createGameContent);
 }
 
 export default playGcdGame;
