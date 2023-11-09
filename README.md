@@ -3,7 +3,7 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/d8826f029a7aba439b5a/maintainability)](https://codeclimate.com/github/HaimOzer/frontend-project-44/maintainability)
 
 ## Brain Games
-Brain Games is a set of console mini-games designed to train your mind.\  
+Brain Games is a set of console mini-games designed to train your mind.  
 The project was developed as part of the "Frontend JavaScript" course at Hexlet.io.
 
 ## System Requirements
@@ -47,8 +47,8 @@ or:
 
 ## Usage
 
-Brain Games include several interesting games.\  
-You can run them by executing the corresponding command.\  
+Brain Games include several interesting games.  
+You can run them by executing the corresponding command.  
 For example, to play the "Brain Even" game, run:
 
 ```bash
@@ -61,7 +61,7 @@ Play and enjoy!
 
 [![Brain Even](https://img.shields.io/badge/Brain-Even-red?style-for-the-badge&logo=bigbluebutton)](#) 
 
-The essence of the game is as follows: you are shown a random number. You need to answer "yes" if the number is even or "no" if it's odd.\ 
+The essence of the game is as follows: you are shown a random number. You need to answer "yes" if the number is even or "no" if it's odd.  
 To start the game, use the command:
 ```bash
 brain-even
@@ -70,7 +70,7 @@ brain-even
 
 [![Brain Calc](https://img.shields.io/badge/Brain-Calc-red?style-for-the-badge&logo=bigbluebutton)](#) 
 
-The essence of the game is as follows: you are shown a random mathematical expression, for example, 35 + 16, which you need to calculate and provide the correct answer.\ 
+The essence of the game is as follows: you are shown a random mathematical expression, for example, 35 + 16, which you need to calculate and provide the correct answer.  
 
 To start the game, use the command:
 ```bash
@@ -80,7 +80,7 @@ brain-calc
 
 [![Brain GCD](https://img.shields.io/badge/Brain-GCD-red?style-for-the-badge&logo=bigbluebutton)](#)
 
-The essence of the game is as follows: you are shown two random numbers, for example, 25 and 50. You need to calculate and enter the greatest common divisor of these numbers.\ 
+The essence of the game is as follows: you are shown two random numbers, for example, 25 and 50. You need to calculate and enter the greatest common divisor of these numbers.  
 
 To start the game, use the command:
 ```bash
@@ -90,7 +90,7 @@ brain-gcd
 
 [![Brain Progression](https://img.shields.io/badge/Brain-Progression-red?style-for-the-badge&logo=bigbluebutton)](#) 
 
-The essence of the game is as follows: you are shown a series of numbers forming an arithmetic progression, where one number is replaced by two dots. Your task is to identify this number and enter it.\ 
+The essence of the game is as follows: you are shown a series of numbers forming an arithmetic progression, where one number is replaced by two dots. Your task is to identify this number and enter it.  
 
 To start the game, use the command:
 ```bash
