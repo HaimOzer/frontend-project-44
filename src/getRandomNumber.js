@@ -1,8 +1,9 @@
-/*
- * Генерирует случайное целое число в заданном диапазоне.
- * @param {number} min - Минимальное значение.
- * @param {number} max - Максимальное значение.
- * @return {number} - Случайное целое число.
+/**
+ * Generates a random integer within a specified range.
+ *
+ * @param {number} min - The minimum value.
+ * @param {number} max - The maximum value.
+ * @returns {number} - A random integer.
  */
 
 function getRandomNumber(min, max) {
