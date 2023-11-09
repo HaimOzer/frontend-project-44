@@ -3,6 +3,13 @@ import getRandomNumber from '../getRandomNumber.js';
 
 const gameDescription = 'Find the greatest common divisor of given numbers.';
 
+/**
+ * Calculates the greatest common divisor (GCD) of two numbers using Euclidean algorithm.
+ *
+ * @param {number} first - The first number.
+ * @param {number} second - The second number.
+ * @returns {number} - The GCD of the two input numbers.
+ */
 function gcdValue(first, second) {
   if (second === 0) {
     return first;

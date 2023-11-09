@@ -3,6 +3,15 @@ import getRandomNumber from '../getRandomNumber.js';
 
 const operators = ['+', '-', '*'];
 
+/**
+ * Performs a mathematical operation on two numbers.
+ *
+ * @param {number} number1 - The first number.
+ * @param {number} number2 - The second number.
+ * @param {string} operation - The mathematical operation to perform ('+', '-', or '*').
+ * @returns {number} - The result of the mathematical operation.
+ * @throws {Error} - If the operation is not supported.
+ */
 function useCalculator(number1, number2, operation) {
   switch (operation) {
     case '+':
@@ -12,7 +21,7 @@ function useCalculator(number1, number2, operation) {
     case '*':
       return number1 * number2;
     default:
-      throw new Error(`Invalid operator - ${operation}`)
+      throw new Error(`Invalid operator - ${operation}`);
   }
 }
 

@@ -3,6 +3,12 @@ import getRandomNumber from '../getRandomNumber.js';
 
 const gameDescription = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
+/**
+ * Checks if a number is a prime number.
+ *
+ * @param {number} number - The number to be checked for primality.
+ * @returns {boolean} - `true` if the number is prime, `false` otherwise.
+ */
 function isPrime(number) {
   if (number < 2) {
     return false;
