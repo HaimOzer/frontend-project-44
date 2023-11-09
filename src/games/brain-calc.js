@@ -12,7 +12,7 @@ function useCalculator(number1, number2, operation) {
     case '*':
       return number1 * number2;
     default:
-      throw new Error('It is Pre-Alpha version. This operation is not supported');
+      throw new Error(`Invalid operator - ${operation}`)
   }
 }
 
