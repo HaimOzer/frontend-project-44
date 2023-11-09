@@ -23,7 +23,7 @@ function createGameContent() {
   const progressionLength = getRandomNumber(6, 12);
   const beginProgression = getRandomNumber(1, 30);
   const interval = getRandomNumber(2, 9);
-  const progressionLine = createProgression(beginProgression, interval);
+  const progressionLine = createProgression(progressionLength, beginProgression, interval);
   const hiddenElementOfLine = getRandomNumber(0, progressionLength - 1);
   const correctAnswer = String(progressionLine[hiddenElementOfLine]);
   const question = progressionLine.join(' ').replace(correctAnswer, '..');
