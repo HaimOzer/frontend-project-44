@@ -2,6 +2,12 @@ import readlineSync from 'readline-sync'; // user input function
 
 const roundsToWin = 3;
 
+/**
+ * Manages the game logic for a Brain Game.
+ *
+ * @param {string} gameDescription - A brief description of the game.
+ * @param {Function} createGameContent - A function that generates game content.
+ */
 function buildGameLogic(gameDescription, createGameContent) {
   console.log('Welcome to the Brain Games!');
   const name = readlineSync.question('May I have your name? ');
