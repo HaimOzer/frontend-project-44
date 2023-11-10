@@ -5,6 +5,7 @@
 ## Brain Games
 Brain Games is a set of console mini-games designed to train your mind.  
 The project was developed as part of the "Frontend JavaScript" course at Hexlet.io.
+<img src="src/images/carbon.png" alt="Icon" width="55%" height="50%">
 
 ## System Requirements
 
