@@ -2,7 +2,6 @@
   "name": "@hexlet/code",
   "version": "1.0.0",
   "description": "project of first module (hexlet-frontend-dev)",
-  "main": "index.js",
   "type": "module",
   "bin": {
     "brain-games": "bin/brain-games.js",

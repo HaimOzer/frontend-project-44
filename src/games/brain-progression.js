@@ -12,11 +12,11 @@ const gameDescription = 'What number is missing in the progression?';
  * @returns {number[]} - An array representing the arithmetic progression.
  */
 function createProgression(progressionLength, beginProgression, interval) {
-  const result = [];
+  const progression = [];
   for (let i = 1; i <= progressionLength; i += 1) {
-    result.push(beginProgression + interval * i);
+    progression.push(beginProgression + interval * i);
   }
-  return result;
+  return progression;
 }
 
 function createGameContent() {
