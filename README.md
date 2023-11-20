@@ -59,7 +59,11 @@ To start the game, use the command:
 ```bash
 brain-even
 ```
+
+
+<a href="https://asciinema.org/a/619633" target="_blank"><img src="https://asciinema.org/a/619633.svg" /></a>
 ---
+
 
 [![Brain Calc](https://img.shields.io/badge/Brain-Calc-red?style-for-the-badge&logo=bigbluebutton)](#) 
 
@@ -69,7 +73,11 @@ To start the game, use the command:
 ```bash
 brain-calc
 ```
+
+
+<a href="https://asciinema.org/a/619635" target="_blank"><img src="https://asciinema.org/a/619635.svg" /></a>
 ---
+
 
 [![Brain GCD](https://img.shields.io/badge/Brain-GCD-red?style-for-the-badge&logo=bigbluebutton)](#)
 
@@ -79,7 +87,11 @@ To start the game, use the command:
 ```bash
 brain-gcd
 ```
+
+
+<a href="https://asciinema.org/a/619636" target="_blank"><img src="https://asciinema.org/a/619636.svg" /></a>
 ---
+
 
 [![Brain Progression](https://img.shields.io/badge/Brain-Progression-red?style-for-the-badge&logo=bigbluebutton)](#) 
 
@@ -89,7 +101,11 @@ To start the game, use the command:
 ```bash
 brain-progression
 ```
+
+
+<a href="https://asciinema.org/a/619637" target="_blank"><img src="https://asciinema.org/a/619637.svg" /></a>
 ---
+
 [![Brain Prime](https://img.shields.io/badge/Brain-Prime-red?style-for-the-badge&logo=bigbluebutton)](#)
 
 The essence of the game is as follows: you are shown a number. You need to answer "yes" if the number is prime or "no" if it's not.  
@@ -98,34 +114,6 @@ To start the game, use the command:
 ```bash
 brain-prime 
 ```
----
-
-## Demo:
-[![Brain Even](https://img.shields.io/badge/Asciinema-Brain_Even_Game-blue?style=for-the-badge&logo=asciinema)](https://asciinema.org/a/wMkhq9mzHfjQmgpTMTnsgwuqy)
-
-
-<a href="https://asciinema.org/a/619633" target="_blank"><img src="https://asciinema.org/a/619633.svg" /></a>
----
-
-[![Brain Calc](https://img.shields.io/badge/Asciinema-Brain_Calc_Game-blue?style=for-the-badge&logo=asciinema)](#)
-
-
-<a href="https://asciinema.org/a/619635" target="_blank"><img src="https://asciinema.org/a/619635.svg" /></a>
----
-
-[![Brain GCD](https://img.shields.io/badge/Asciinema-Brain_GCD_Game-blue?style=for-the-badge&logo=asciinema)](#)
-
-
-<a href="https://asciinema.org/a/619636" target="_blank"><img src="https://asciinema.org/a/619636.svg" /></a>
----
-
-[![Brain Progression](https://img.shields.io/badge/Asciinema-Brain_Progression-blue?style=for-the-badge&logo=asciinema)](#)
-
-
-<a href="https://asciinema.org/a/619637" target="_blank"><img src="https://asciinema.org/a/619637.svg" /></a>
----
-
-[![Brain Prime](https://img.shields.io/badge/Asciinema-Brain_Prime_Game-blue?style=for-the-badge&logo=asciinema)](#)
 
 
 <a href="https://asciinema.org/a/619638" target="_blank"><img src="https://asciinema.org/a/619638.svg" /></a>
