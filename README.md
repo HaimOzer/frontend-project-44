@@ -21,26 +21,18 @@ Follow these steps:
 
 1. Install Node.js if you don't have it already from the official [Node.js](https://nodejs.org/) website.
 
-2. Install Brain Games globally using npm:
-
-   ```bash
-   npm install -g @hexlet/code
-   ```
- 
-or:
-
-1. Clone the repository
+2. Clone the repository
 
    ``` bash
    git clone git @github:HaimOzer/frontend-project-44.git
    ```
-2. Navigate to the project's root directory:
+3. Navigate to the project's root directory:
  
    ``` bash
    cd frontend-project-44
    ```
 
-3. Create a link between global and local packages:
+4. Create a link between global and local packages:
 
    ``` bash
    npm link
